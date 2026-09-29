@@ -1,0 +1,92 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# DARTIS Dataset
+# =========================
+
+# Raw dataset
+dataset/
+dataset_structured/
+
+# DARTIS metadata
+DARTIS_2019.tab
+
+# =========================
+# Land polygon dataset
+# =========================
+
+land_polygons/
+
+# =========================
+# Generated outputs
+# =========================
+
+patches_masked/
+land_masks/
+
+# Generated masked images
+*_mask.jpg
+*_maskout.jpg
+
+# =========================
+# Logs / temporary files
+# =========================
+
+*.log
+*.tmp
+*.temp
+
+# =========================
+# OS generated files
+# =========================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+.env.*
+!.env.example
